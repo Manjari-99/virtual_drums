@@ -1,15 +1,3 @@
-//for first button
-/*document.querySelector("button").addEventListener("click",function (){
-  alert("I got Clicked");
-});*/
-//for all buttons method - shortcut
-/*document.querySelectorAll('.drum').forEach(item => {
-  item.addEventListener('click', event => {
-    alert("click");
-  })
-})*/
-
-//button press
 var i;
 for (i = 0; i < document.querySelectorAll(".drum").length; i++) {
   document.querySelectorAll(".drum")[i].addEventListener('click', function() {
